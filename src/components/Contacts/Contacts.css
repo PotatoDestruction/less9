@@ -1,0 +1,52 @@
+.Contacts-main-container {
+    width: 400px;
+    margin: 100px auto;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+label {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: aqua;
+    font-weight: 700;
+}
+
+form button:hover {
+    background: green;
+    cursor: pointer;
+}
+
+.Contacts-button-wrap {
+    text-align: center;
+    margin: 30px;
+}
+
+.on {
+    text-align: center;
+    color: green;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.off {
+    display: none;
+}

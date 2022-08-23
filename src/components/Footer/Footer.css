@@ -1,0 +1,35 @@
+.static {
+    position:static;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.726);
+}
+
+.absolute {
+    position:absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.726);
+}
+
+.Footer-links {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.Footer-links a {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.copy {
+    width: 400px;
+    margin: 10px auto;
+    text-align: center;
+}

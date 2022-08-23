@@ -1,0 +1,30 @@
+.Comments-main-container {
+    width: 1100px;
+    margin: 20px auto;
+}
+.Comments-H {
+    text-align: center;
+}
+
+.Comments-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Comment-box {
+    width: 47%;
+    border: 2px solid red;
+    border-radius: 10px;
+    height: 320px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.Comment-box h1 , h2, p{
+    margin-top: 0px;
+}
+
+.Comment-box div {
+    color: blue;
+}
